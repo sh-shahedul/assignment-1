@@ -36,6 +36,7 @@
     background-color: #4E47FF;
     font-family: "Raleway", sans-serif;
 }
+
 /* nav end here  */
 /* ==================== */
 /* banner starts here  */
@@ -47,7 +48,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 169px 267px 152px 265px;
+    margin: 149px 267px 152px 265px;
  }
 
  .baner-title{
@@ -64,4 +65,40 @@
  /* =================== */
  /* main starts here  */
  /* action start here  */
+
+ .action{
+    margin: 0 auto;
+    width: 1440px;
+    height: 560px;
+    display: flex;
+    line-height: 23px;
+    align-items: center;
+ }
+ 
+ .action-container{
+     margin: 116px 160px;
+     justify-content: space-between;
+     width:517px;
+     height:203px;
+ }
+ 
+.action-title{
+     font-size: 42px;
+     font-weight: bold;
+     color: #252432;
+     font-family: "Raleway", sans-serif;
+}
+.action-sub-title{
+font-size: 24px;
+color: #252432b4;
+
+}
+
+.action-image{
+    width: 403px;
+    height: 328px;
+    border: none;
+    border-radius: 48px;
+     margin: 116px 160px;
+ }
 
