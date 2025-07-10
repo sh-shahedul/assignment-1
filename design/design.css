@@ -101,4 +101,50 @@ color: #252432b4;
     border-radius: 48px;
      margin: 116px 160px;
  }
+.Productive{
+   width: 1440px;
+   height: 559px;
+   
+   text-align: center;
+   margin: 0 auto;
+}
 
+.Productive-container{
+ background-color: #4a47ff23;
+ padding: 20px 142px;
+ /* margin: 116px 155px 137px 155px; */
+ border-radius: 24px;
+ width: 1140px;
+ height: 300px;
+ 
+
+} 
+.productive-title{
+font-size: 38px;
+font-weight: bold;
+font-family: "Raleway", sans-serif;
+margin-top: 30px;
+
+}
+
+.productive-user{
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center;  */
+
+}
+
+.active-title{
+font-size:80px ;
+font-weight:bold ;
+color:#2b25cf ;
+font-family: "Inter", sans-serif;
+margin-bottom: -25px;
+margin-top: 30px;
+}
+.active-sub-title{
+font-size: 20px;
+color: #000000b0;
+font-family: "Inter", sans-serif;
+
+}
