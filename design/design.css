@@ -4,7 +4,10 @@
 
 
 /* header starts here  */
-
+body{
+  
+   background-color:rgba(217, 229, 240, 0.26)
+}
 .header{
     margin: 0 auto;
     background-image: url(../Assets/Hero-bg.png);
@@ -101,6 +104,11 @@ color: #252432b4;
     border-radius: 48px;
      margin: 116px 160px;
  }
+
+    /* action ends here  */
+    /* ================== */
+ /* productive starts here  */
+
 .Productive{
    width: 1440px;
    height: 559px;
@@ -148,3 +156,86 @@ color: #000000b0;
 font-family: "Inter", sans-serif;
 
 }
+ /* productive ends here  */
+ /* ==================== */
+ /* feedback starts here  */
+ .feedback{
+    width: 1440px;
+    height: 698px;
+    margin: 0 auto;
+    padding: 34px 0 ;
+    margin-top: -142px;
+    
+
+
+ }
+ .feedback-title{
+   font-size: 42px;
+   font-weight: bold;
+   font-family: "Raleway", sans-serif;
+   text-align: center;
+   margin-bottom: 50px;
+ }
+ .card-container{
+
+    display: flex;
+     margin: 0 auto;
+    text-align: left;
+    justify-content: center;
+    /* gap: 20px; */
+   
+ }
+ .card{
+    
+    width: 466px;
+    height: 263px;
+    padding: 30px;
+    margin: 0 20px;
+    border-radius: 16px;
+    background-color:white;
+ }
+ .star{
+  margin-top: 20px;
+  margin-bottom: 4px;
+ }
+ .card-title{
+  font-size: 30px;
+  font-weight: bold;
+   font-family: "Raleway", sans-serif;
+ }
+ .card-description{
+  font-size: 24px;
+  color: #08070abe;
+  margin-top:-14px;
+  font-family: "Inter", sans-serif;
+ }
+ .card-2{
+     display: flex;
+    gap: 14px;
+
+ }
+ .card-photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+ }
+
+ .reviewer{
+    gap: 10px;
+ }
+ .name{
+ font-size: 20px;
+ font-family: "Inter", sans-serif;
+ color: #757575;
+ margin-top: 1px;
+ 
+ }
+.date{
+    font-family: "Inter", sans-serif;
+    color: #B3B3B3;
+    font-size: 20px;
+    line-height:0px;
+    margin-top: -15px;
+}
+
+ /* feedback ends here  */
