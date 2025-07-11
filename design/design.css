@@ -1,12 +1,8 @@
-
-  /*    font-family: "Raleway", sans-serif;
-        font-family: "Inter", sans-serif;        */
-
-
-/* header starts here  */
+      /* font-family: "Raleway", sans-serif;
+        font-family: "Inter", sans-serif; */
+ /* header starts here  */
 body{
-  
-    background-color:rgba(113, 135, 155, 0.164) 
+  background-color:rgba(113, 135, 155, 0.164) 
 }
 .header{
     margin: 0 auto;
@@ -39,11 +35,9 @@ body{
     background-color: #4E47FF;
     font-family: "Raleway", sans-serif;
 }
-
 .sign-up:hover{
    background-color: tomato;
 }
-
 /* nav end here  */
 /* ==================== */
 /* banner starts here  */
@@ -51,29 +45,24 @@ body{
     width: 905px;
     height: 237px;
     margin: 0 auto;
-   
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 149px 267px 152px 265px;
- }
-
+    margin: 149px 267px 152px 265px; }
  .baner-title{
     font-size: 65px;
     font-weight: bold;
     color: #252432;
     text-align: center;
     margin-bottom: 30px;
-     font-family: "Raleway", sans-serif;
- }
-
+   font-family: "Raleway", sans-serif;
+  }
  /* banner ends here  */
  /* nav ends here  */
  /* =================== */
  /* main starts here  */
  /* action start here  */
-
- .action{
+.action{
     margin: 0 auto;
     width: 1440px;
     height: 560px;
@@ -81,16 +70,14 @@ body{
     line-height: 23px;
     align-items: center;
     justify-content: space-between;
- }
- 
+  }
  .action-container{
      margin: 116px 130px;
      /* justify-content: space-between; */
      width:517px;
      height:203px;
  }
- 
-.action-title{
+ .action-title{
      font-size: 42px;
      font-weight: bold;
      color: #252432;
@@ -99,9 +86,7 @@ body{
 .action-sub-title{
 font-size: 24px;
 color: #252432b4;
-
-}
-
+ }
 .action-image{
     width: 403px;
     height: 328px;
@@ -109,19 +94,15 @@ color: #252432b4;
     border-radius: 48px;
      margin: 116px 120px;
  }
-
-    /* action ends here  */
+     /* action ends here  */
     /* ================== */
- /* productive starts here  */
-
-.Productive{
+   /* productive starts here  */
+ .Productive{
    width: 1440px;
    height: 559px;
-   
-   text-align: center;
+   text-align:center;
    margin: 0 auto;
-}
-
+  }
 .Productive-container{
  background-color: #4a47ff23;
  padding: 20px 142px;
@@ -130,24 +111,18 @@ color: #252432b4;
  width: 920px;
  height: 300px;
 margin: 0 auto;
- 
-
-} 
+ } 
 .productive-title{
 font-size: 38px;
 font-weight: bold;
 font-family: "Raleway", sans-serif;
 margin-top: 30px;
-
-}
-
+ }
 .productive-user{
     display: flex;
     justify-content: space-around;
     /* text-align: center;  */
-
-}
-
+   }
 .active-title{
 font-size:80px ;
 font-weight:bold ;
@@ -171,10 +146,7 @@ font-family: "Inter", sans-serif;
     margin: 0 auto;
     padding: 34px 0 ;
     margin-top: -142px;
-    
-
-
- }
+    }
  .feedback-title{
    font-size: 42px;
    font-weight: bold;
@@ -189,24 +161,23 @@ font-family: "Inter", sans-serif;
     text-align: left;
     justify-content: center;
     /* gap: 20px; */
-   
- }
+   }
  .card{
-    
-    width: 466px;
-    height: 280px;
-    padding: 30px;
-    margin: 0 20px;
-    border-radius: 16px;
+    width:466px;
+    height:280px;
+    padding:30px;
+    margin:0 20px;
+    border-radius:16px;
     background-color:white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.082);
  }
  .star{
   margin-top: 20px;
-  margin-bottom: 4px;
+  margin-bottom:4px;
  }
  .card-title{
-  font-size: 30px;
-  font-weight: bold;
+  font-size:30px;
+  font-weight:bold;
    font-family: "Raleway", sans-serif;
  }
  .card-description{
@@ -216,81 +187,69 @@ font-family: "Inter", sans-serif;
   font-family: "Inter", sans-serif;
  }
  .card-2{
-     display: flex;
+    display: flex;
     gap: 14px;
-
  }
  .card-photo{
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
+    width:40px;
+    height:40px;
+    border-radius:100%;
  }
-
- .reviewer{
-    gap: 10px;
- }
+.reviewer{
+    gap:10px;
+      }
  .name{
- font-size: 20px;
+ font-size:20px;
  font-family: "Inter", sans-serif;
  color: #757575;
- margin-top: 1px;
- 
- }
+ margin-top:1px;
+  }
 .date{
     font-family: "Inter", sans-serif;
     color: #B3B3B3;
     font-size: 20px;
     line-height:0px;
-    margin-top: -15px;
-}
-
+    margin-top:-15px;
+ }
  /* feedback ends here  */
  /* =========================== */
  /* get in touch section starts  */
 .lets-get-touch{
-   width: 1200px;
-   margin: 0 auto;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   margin-top: -92px;
+   width:1200px;
+   margin:0 auto;
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   margin-top:-92px;
    /* gap: 30px; */
- 
-}
+ }
 .touch{
-  
-  flex: 1;
-  
-
-}
+  flex:1;
+   }
 .touch-title{
    width:528px ;
    height:232px ;
-   font-size: 97px;
-   font-weight: bold;
+   font-size:97px;
+   font-weight:bold;
    color: #000000;
    margin: 130px 115px 130px 0;
    font-family: "Raleway", sans-serif;
-   
-}
-.form {
-   
+   }
+.form {  
    flex: 1;
-}
+       }
       input[type=text], input[type=email] {
-      width: 100%;
-      height: 71px;
-      margin: 8px 0;
-      box-sizing: border-box; 
-      border-radius: 16px;
-      border: none;
-      font-size: 22px;
-      padding: 10px;
+      width:100%;
+      height:71px;  
+      box-sizing:border-box; 
+      border-radius:16px;
+      border:none;
+      font-size:22px;
+      padding:10px;
       background-color: rgb(255, 255, 255);
       font-family: "Inter", sans-serif;
    } 
-
- textarea {
+  textarea {
   width: 100%;
   height: 150px;
   box-sizing: border-box; 
@@ -313,8 +272,8 @@ label{
    display: block;
    font-size: 24px;
    font-weight: 500px;
+   padding: 10px;
    font-family: "Inter", sans-serif;
-
 }
 .touch-btn{
    width: 100%;
@@ -327,8 +286,6 @@ label{
 /* main srction end  */
 /* ========================== */
 /* footer starts herer  */
-
-
 .footer{
    width: 1440px;
    height: 428px;
@@ -338,20 +295,16 @@ label{
 .footer-container{
   margin: 104px 355px;
 }
-
 .footer-title{
    font-size: 100px;
    font-weight: 900;
-   padding: 90px 0; 
+   padding: 100px 0; 
    margin-top: 85px;
    margin-bottom: 160px;
    text-align: center;
    font-family: "Inter", sans-serif;
    color: #4E47FF;
-
-
-}
-
+ }
 .footer-description{
    width: 629px;
    font-size: 20px;
@@ -359,19 +312,15 @@ label{
    margin: 0 auto;
    text-align: center;
    margin-top: -250px;
-   font-family: "Inter", sans-serif;
-   
-}
-
+   font-family: "Inter", sans-serif;  
+ }
 .footer-menu{
    text-align: center;
 }
 .footer-menu ul li{
     list-style: none;
-    display: inline-block;
-
-   
-}
+    display: inline-block;  
+ }
 .footer-menu ul li a{
     text-decoration: none; 
     font-size: 20px;  
@@ -382,6 +331,5 @@ label{
     font-family: "Inter", sans-serif;
     line-height: 50px;
     margin: 20px;
-
 }
   /* footer section ends here  */
