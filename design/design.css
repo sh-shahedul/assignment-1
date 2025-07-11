@@ -273,11 +273,11 @@ font-family: "Inter", sans-serif;
    font-family: "Raleway", sans-serif;
    
 }
-.form label{
-   display:block;
+.form {
+   
    flex: 1;
 }
- input[type=text], input[type=email] {
+      input[type=text], input[type=email] {
       width: 100%;
       height: 71px;
       margin: 8px 0;
@@ -288,7 +288,7 @@ font-family: "Inter", sans-serif;
       padding: 10px;
       background-color: rgb(255, 255, 255);
       font-family: "Inter", sans-serif;
-   }
+   } 
 
  textarea {
   width: 100%;
@@ -310,7 +310,7 @@ input::placeholder, textarea::placeholder{
    font-family: "Inter", sans-serif;
 }
 label{
-  
+   display: block;
    font-size: 24px;
    font-weight: 500px;
    font-family: "Inter", sans-serif;
