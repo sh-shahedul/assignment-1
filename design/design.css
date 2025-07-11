@@ -250,7 +250,7 @@ font-family: "Inter", sans-serif;
 .lets-get-touch{
    width: 1200px;
    margin: 0 auto;
-    display: flex;
+   display: flex;
    justify-content: space-between;
    align-items: center;
    margin-top: -92px;
@@ -279,14 +279,14 @@ font-family: "Inter", sans-serif;
    input[type=text], input[type=email] {
       width: 100%;
       height: 71px;
-      margin: 8px 0;
+      /* margin: 8px 0; */
       box-sizing: border-box; 
       border-radius: 16px;
       border: none;
       font-size: 22px;
-        padding: 10px;
-     background-color: rgb(255, 255, 255);
-     font-family: "Inter", sans-serif;
+      padding: 10px;
+      background-color: rgb(255, 255, 255);
+      font-family: "Inter", sans-serif;
    }
   
 }
@@ -294,8 +294,8 @@ font-family: "Inter", sans-serif;
   width: 100%;
   height: 150px;
   box-sizing: border-box; 
-   border-radius: 16px;
-   border: none;
+  border-radius: 16px;
+  border: none;
   background-color: #f8f8f8;
   font-size: 22px;
   padding: 10px;
@@ -323,6 +323,7 @@ label{
    margin: 20px 0;
 }
 /* get in touch section end  */
+/* ======================== */
 /* main srction end  */
 /* ========================== */
 /* footer starts herer  */
