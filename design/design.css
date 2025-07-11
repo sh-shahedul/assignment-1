@@ -6,7 +6,7 @@
 /* header starts here  */
 body{
   
-   background-color:rgba(217, 229, 240, 0.26)
+    background-color:rgba(113, 135, 155, 0.164) 
 }
 .header{
     margin: 0 auto;
@@ -38,6 +38,10 @@ body{
     border-radius: 16px;
     background-color: #4E47FF;
     font-family: "Raleway", sans-serif;
+}
+
+.sign-up:hover{
+   background-color: tomato;
 }
 
 /* nav end here  */
@@ -76,11 +80,12 @@ body{
     display: flex;
     line-height: 23px;
     align-items: center;
+    justify-content: space-between;
  }
  
  .action-container{
-     margin: 116px 160px;
-     justify-content: space-between;
+     margin: 116px 130px;
+     /* justify-content: space-between; */
      width:517px;
      height:203px;
  }
@@ -102,7 +107,7 @@ color: #252432b4;
     height: 328px;
     border: none;
     border-radius: 48px;
-     margin: 116px 160px;
+     margin: 116px 120px;
  }
 
     /* action ends here  */
@@ -122,8 +127,9 @@ color: #252432b4;
  padding: 20px 142px;
  /* margin: 116px 155px 137px 155px; */
  border-radius: 24px;
- width: 1140px;
+ width: 920px;
  height: 300px;
+margin: 0 auto;
  
 
 } 
@@ -177,7 +183,7 @@ font-family: "Inter", sans-serif;
    margin-bottom: 50px;
  }
  .card-container{
-
+    width: 1235px;
     display: flex;
      margin: 0 auto;
     text-align: left;
@@ -188,7 +194,7 @@ font-family: "Inter", sans-serif;
  .card{
     
     width: 466px;
-    height: 263px;
+    height: 280px;
     padding: 30px;
     margin: 0 20px;
     border-radius: 16px;
@@ -239,3 +245,142 @@ font-family: "Inter", sans-serif;
 }
 
  /* feedback ends here  */
+ /* =========================== */
+ /* get in touch section starts  */
+.lets-get-touch{
+   width: 1200px;
+   margin: 0 auto;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: -92px;
+   /* gap: 30px; */
+ 
+}
+.touch{
+  
+  flex: 1;
+  
+
+}
+.touch-title{
+   width:528px ;
+   height:232px ;
+   font-size: 97px;
+   font-weight: bold;
+   color: #000000;
+   margin: 130px 115px 130px 0;
+   font-family: "Raleway", sans-serif;
+   
+}
+.form{
+   flex: 1;
+
+   input[type=text], input[type=email] {
+      width: 100%;
+      height: 71px;
+      margin: 8px 0;
+      box-sizing: border-box; 
+      border-radius: 16px;
+      border: none;
+      font-size: 22px;
+        padding: 10px;
+     background-color: rgb(255, 255, 255);
+     font-family: "Inter", sans-serif;
+   }
+  
+}
+ textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box; 
+   border-radius: 16px;
+   border: none;
+  background-color: #f8f8f8;
+  font-size: 22px;
+  padding: 10px;
+  resize: none;
+  font-family: "Inter", sans-serif;
+}
+input::placeholder, textarea::placeholder{
+   padding: 32px;
+   font-size: 22px;
+   font-weight: bold;
+   color: #00000081;
+   font-family: "Inter", sans-serif;
+}
+label{
+  
+   font-size: 24px;
+   font-weight: 500px;
+   font-family: "Inter", sans-serif;
+
+}
+.touch-btn{
+   width: 100%;
+   height: 72px;
+   font-size: 21px;
+   margin: 20px 0;
+}
+/* get in touch section end  */
+/* main srction end  */
+/* ========================== */
+/* footer starts herer  */
+
+
+.footer{
+   width: 1440px;
+   height: 428px;
+   background-color: #ffffff;
+   margin: 0 auto;
+}
+.footer-container{
+  margin: 104px 355px;
+}
+
+.footer-title{
+   font-size: 100px;
+   font-weight: 900;
+   padding: 90px 0; 
+   margin-top: 85px;
+   margin-bottom: 160px;
+   text-align: center;
+   font-family: "Inter", sans-serif;
+   color: #4E47FF;
+
+
+}
+
+.footer-description{
+   width: 629px;
+   font-size: 20px;
+   color: #8987A1;
+   margin: 0 auto;
+   text-align: center;
+   margin-top: -250px;
+   font-family: "Inter", sans-serif;
+   
+}
+
+.footer-menu{
+   text-align: center;
+}
+.footer-menu ul li{
+    list-style: none;
+    display: inline-block;
+
+   
+}
+.footer-menu ul li a{
+    text-decoration: none; 
+    font-size: 20px;  
+    color: #8987A1;
+    /* padding:0px 20px; */
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    line-height: 50px;
+    margin: 20px;
+
+}
+  /* footer section ends here  */
